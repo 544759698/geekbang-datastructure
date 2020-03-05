@@ -1,6 +1,8 @@
 package com.yang.algorithm.day1;
 
 /**
+ * https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/
+ *
  * Created by yangguojun01 on 2020/3/4.
  */
 public class Solution {
