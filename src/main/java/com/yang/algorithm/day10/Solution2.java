@@ -1,13 +1,11 @@
 package com.yang.algorithm.day10;
 
-import com.sun.org.apache.xerces.internal.dom.PSVIAttrNSImpl;
-
 /**
  * https://leetcode-cn.com/problems/add-two-numbers/
  * <p>
  * Created by yangguojun01 on 2020/3/12.
  */
-public class Solution {
+public class Solution2 {
 
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         ListNode preHead = new ListNode(0);

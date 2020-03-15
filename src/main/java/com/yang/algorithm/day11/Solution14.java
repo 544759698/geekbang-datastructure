@@ -5,7 +5,7 @@ package com.yang.algorithm.day11;
  * <p>
  * Created by yangguojun01 on 2020/3/13.
  */
-public class Solution {
+public class Solution14 {
 
     public String longestCommonPrefix(String[] strs) {
         String ret = "";
