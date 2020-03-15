@@ -5,7 +5,7 @@ package com.yang.algorithm.day6;
  * <p>
  * Created by yangguojun01 on 2020/3/8.
  */
-public class Solution {
+public class Solution66 {
 
     public static int[] plusOne(int[] digits) {
         if (digits == null) {

@@ -5,7 +5,7 @@ package com.yang.algorithm.day7;
  * <p>
  * Created by yangguojun01 on 2020/3/9.
  */
-public class MyCircularQueue {
+public class MyCircularQueue622 {
 
     private int[] data;
     private int head;
@@ -16,7 +16,7 @@ public class MyCircularQueue {
     /**
      * Initialize your data structure here. Set the size of the queue to be k.
      */
-    public MyCircularQueue(int k) {
+    public MyCircularQueue622(int k) {
         data = new int[k];
         head = 0;
         tail = 0;
@@ -91,7 +91,7 @@ public class MyCircularQueue {
     }
 
     public static void main(String[] args) {
-        MyCircularQueue circularQueue = new MyCircularQueue(3); // 设置长度为 3
+        MyCircularQueue622 circularQueue = new MyCircularQueue622(3); // 设置长度为 3
 
         circularQueue.enQueue(1); // 返回 true
 

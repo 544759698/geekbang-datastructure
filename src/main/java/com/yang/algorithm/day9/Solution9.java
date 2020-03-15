@@ -5,7 +5,7 @@ package com.yang.algorithm.day9;
  * <p>
  * Created by yangguojun01 on 2020/3/11.
  */
-public class Solution {
+public class Solution9 {
 
     public boolean isPalindrome(int x) {
         if (x < 0) {

@@ -3,9 +3,11 @@ package com.yang.algorithm.day5;
 import java.util.HashMap;
 
 /**
+ * https://leetcode-cn.com/problems/two-sum/
+ * <p>
  * Created by yangguojun01 on 2020/3/7.
  */
-public class Solution {
+public class Solution1 {
 
     public int[] twoSum(int[] nums, int target) {
         int[] ret = new int[2];

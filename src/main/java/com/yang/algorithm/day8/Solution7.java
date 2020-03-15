@@ -5,7 +5,7 @@ package com.yang.algorithm.day8;
  * <p>
  * Created by yangguojun01 on 2020/3/10.
  */
-public class Solution {
+public class Solution7 {
 
     public int reverse(int x) {
         int modLeft = 0;
