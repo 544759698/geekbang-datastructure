@@ -37,9 +37,26 @@ public class Solution27 {
         return ret;
     }
 
+    public static int removeElement1(int[] nums, int val) {
+        if (nums == null || nums.length == 0) {
+            return 0;
+        }
+        int ret = 0;
+        for (int i = 0; i < nums.length; i++) {
+            if (nums[i] != val) {
+                if (ret != i) {
+                    nums[ret] = nums[i];
+                }
+                ret++;
+            }
+        }
+        return ret;
+    }
+
     public static void main(String[] args) {
         int[] nums = new int[] {3, 2, 2, 3, 2, 2, 4, 5};
         System.out.println(removeElement(nums, 2));
+        System.out.println(removeElement1(nums, 2));
     }
 
 }

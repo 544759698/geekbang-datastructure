@@ -22,7 +22,7 @@ public class Solution3 {
                     subMax++;
                 }
             }
-            maxLength = subMax > maxLength ? subMax : maxLength;
+            maxLength = Math.max(maxLength, subMax);
         }
         return maxLength;
     }
