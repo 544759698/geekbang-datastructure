@@ -4,9 +4,11 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
+ * https://leetcode-cn.com/problems/word-pattern/
+ *
  * Created by yangguojun01 on 2020/3/20.
  */
-public class Solution {
+public class Solution290 {
 
     public boolean wordPattern(String pattern, String str) {
         if ((pattern == null || "" .equals(pattern)) && (str == null || "" .equals(str))) {
