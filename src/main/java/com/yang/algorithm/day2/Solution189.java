@@ -5,7 +5,7 @@ package com.yang.algorithm.day2;
  *
  * Created by yangguojun01 on 2020/3/4.
  */
-public class Solution {
+public class Solution189 {
 
     public static void rotate(int[] nums, int k) {
         if (nums == null || nums.length <= 1) {

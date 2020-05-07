@@ -5,7 +5,7 @@ package com.yang.algorithm.day4;
  * <p>
  * Created by yangguojun01 on 2020/3/6.
  */
-public class Solution {
+public class Solution88 {
 
     public void merge(int[] nums1, int m, int[] nums2, int n) {
         while ((m + n > 0) && m > 0 && n > 0) {

@@ -5,7 +5,7 @@ package com.yang.algorithm.day3;
  * <p>
  * Created by yangguojun01 on 2020/3/5.
  */
-public class Solution {
+public class Solution21 {
 
     public static ListNode mergeTwoLists(ListNode l1, ListNode l2) {
         if (l1 == null) {

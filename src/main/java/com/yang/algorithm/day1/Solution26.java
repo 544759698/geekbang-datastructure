@@ -5,7 +5,7 @@ package com.yang.algorithm.day1;
  *
  * Created by yangguojun01 on 2020/3/4.
  */
-public class Solution {
+public class Solution26 {
 
     public static int removeDuplicates(int[] nums) {
         if (nums == null || nums.length == 0) {
