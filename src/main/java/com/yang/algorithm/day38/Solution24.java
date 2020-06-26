@@ -1,5 +1,7 @@
 package com.yang.algorithm.day38;
 
+import java.util.HashMap;
+
 /**
  * https://leetcode-cn.com/problems/swap-nodes-in-pairs/
  *
@@ -21,6 +23,9 @@ public class Solution24 {
             l2.next = l1;
             pre = l1;
             head = head.next;
+            HashMap<Integer,Integer> map = new HashMap<>();
+            map.containsKey(1);
+            map.get(1);
         }
         return ret;
     }
