@@ -34,9 +34,29 @@ public class CoinChangeSolution {
         return memo[target];
     }
 
+    public int getCoins2(int[] coins, int target) {
+        int[] memo = new int[target + 1];
+        Arrays.fill(memo, -1);
+        memo[0] = 0;
+        for (int sum = 1; sum <= target; sum++) {
+            int result = -1;
+            for (int coin : coins) {
+                if (sum - coin >= 0) {
+                    if (memo[sum - coin] != -1 && (result == -1 || memo[sum - coin] + 1 < result)) {
+                        result = memo[sum - coin] + 1;
+                    }
+                }
+            }
+            memo[sum] = result;
+        }
+        return memo[target];
+    }
+
     public static void main(String[] args) {
         CoinChangeSolution solution = new CoinChangeSolution();
         System.out.println(solution.getCoins(new int[] {1, 2, 3, 4}, 10));
         System.out.println(solution.getCoins(new int[] {1, 5, 11}, 20));
+        System.out.println(solution.getCoins2(new int[] {1, 2, 3, 4}, 10));
+        System.out.println(solution.getCoins2(new int[] {1, 5, 11}, 20));
     }
 }
