@@ -4,17 +4,6 @@ package com.bit.tiger;
  * @Author: yangguojun01
  * @Date: 2020/6/26
  */
-
-class Node {
-    int value;
-    Node left;
-    Node right;
-
-    Node(int value) {
-        this.value = value;
-    }
-}
-
 public class CommonAncestorSolution {
 
     public Node buildTree(int[] nums, int pos) {
